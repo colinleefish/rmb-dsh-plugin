@@ -11,23 +11,17 @@ Official docs: [Trusted publishers](https://docs.npmjs.com/trusted-publishers/).
 
 ## One-time: bootstrap + Trusted Publisher
 
-1. Publish the first version from a real terminal (so npm can show the Passkey URL):
+1. **Done (2026-11-15):** `@colinleefish/rmb-dsh-plugin@0.1.3` was bootstrapped with a local Passkey publish. The `v0.1.3` tag also exists; its Actions run failed with “cannot publish over the previously published versions” — expected, ignore it.
 
-   ```bash
-   cd rmb-dsh-plugin
-   npm whoami --registry=https://registry.npmjs.org   # colinleefish
-   npm publish --access public --registry=https://registry.npmjs.org
-   ```
-
-   Open the printed `https://www.npmjs.com/auth/cli/...` link, confirm with Passkey.
-
-2. On npm → package **Settings → Trusted Publisher**:
-   - Organization / user: `colinleefish`
-   - Repository: `rmb-dsh-plugin`
+2. **Still needed once on the website** — npm → package → **Settings → Trusted Publisher** → GitHub Actions:
+   - Repository owner: `colinleefish`
+   - Repository name: `rmb-dsh-plugin`
    - Workflow filename: `publish.yml`
    - Environment: leave empty (unless you add a GitHub Environment)
 
-3. Confirm https://www.npmjs.com/package/@colinleefish/rmb-dsh-plugin shows `0.1.3`.
+   Docs: [Trusted publishers](https://docs.npmjs.com/trusted-publishers/).
+
+3. Confirm the package page: https://www.npmjs.com/package/@colinleefish/rmb-dsh-plugin
 
 ## Later releases
 
