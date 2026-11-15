@@ -1,5 +1,5 @@
 - insert:
-    - id: memory-rmb
+    - id: rmb-dsh-plugin
       name: '@colinleefish/rmb-dsh-plugin'
       config:
         baseUrl: http://127.0.0.1:19019

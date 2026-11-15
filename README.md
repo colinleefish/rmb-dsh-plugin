@@ -21,10 +21,10 @@ or, once published:
 pnpm add @colinleefish/rmb-dsh-plugin
 ```
 
-The bundle inserts Cordis row `memory-rmb`:
+The bundle inserts Cordis row `rmb-dsh-plugin`:
 
 ```yaml
-- id: memory-rmb
+- id: rmb-dsh-plugin
   name: '@colinleefish/rmb-dsh-plugin'
   config:
     baseUrl: http://127.0.0.1:19019
