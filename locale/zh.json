@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "RMB 记忆",
+    "description": "把每轮对话写入本机 RMB Desktop 记忆库，并提供两个检索工具供模型按需读取。"
+  }
+}

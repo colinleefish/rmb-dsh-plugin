@@ -1,0 +1,43 @@
+{
+  "name": "@colinleefish/rmb-dsh-plugin",
+  "version": "0.1.2",
+  "private": true,
+  "type": "module",
+  "description": "RMB Desktop memory plugin for DeepSeek Harness: capture finished turns to local rmbd and recall them with rmb_search / rmb_cat.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colinleefish/rmb-dsh-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/colinleefish/rmb-dsh-plugin/issues"
+  },
+  "homepage": "https://github.com/colinleefish/rmb-dsh-plugin#readme",
+  "author": "colinleefish",
+  "license": "MIT",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "rmb",
+    "rmb-desktop",
+    "memory",
+    "cordis"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
