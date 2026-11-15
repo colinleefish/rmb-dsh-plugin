@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "RMB memory",
-    "description": "Capture finished turns into the local RMB Desktop memory and recall them with two tools."
+    "description": "Save DeepSeek Harness chats into RMB Desktop and let the model search them later."
   }
 }
