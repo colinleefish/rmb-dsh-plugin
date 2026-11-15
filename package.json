@@ -1,7 +1,6 @@
 {
   "name": "@colinleefish/rmb-dsh-plugin",
   "version": "0.1.3",
-  "private": true,
   "type": "module",
   "description": "RMB Desktop memory plugin for DeepSeek Harness: capture finished turns to local rmbd and recall them with rmb_search / rmb_cat.",
   "repository": {
